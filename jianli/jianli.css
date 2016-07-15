@@ -1,0 +1,222 @@
+body {
+    width: 100%;
+    height:100%;
+    font: 18px/1.5 '微软雅黑';
+    background: #ececec;
+
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+header{
+    width:100%;
+    height:72px;
+    top:0px;
+    background:#3b3a3f;
+    z-index:100;
+    opacity:0.8;
+    position:fixed;
+}
+#resume{
+    float:left;
+    z-index:7;
+    position:absolute;
+}
+#jianl{
+    font-size:18px;
+    color:#a8a8a8;
+    font-weight:bolder;
+    margin-left:90px;
+    padding-top:15px
+}
+nav {
+    margin-right: 60px;
+    float: right;
+    position:relative;
+}
+nav li {
+    float: left;
+    margin: 7px 14px;
+    list-style-type:none;
+}
+nav li a {
+    padding: 25px 0;
+    position: relative;
+    color: #a8a8a8;
+}
+nav li a:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    height: 2px;
+    background: #1FAEFF;
+    opacity: 0;
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in;
+}
+nav li a:hover {
+    color: #1FAEFF;
+}
+nav li a:hover:after {
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+.zhengti{
+    margin:0 auto;
+    width:900px;
+    position: relative;
+}
+.section{
+    position: absolute;
+    text-align:center;
+}
+#ismi,#jineng,#demo,#call{
+    margin-top:140px;
+}
+    /*首页*/
+#centent {
+    height:600px;
+    padding: 190px;
+}
+#home_head {
+    margin: 0 auto;
+    width: 200px;
+    -webkit-transition: margin-top 2s ease-in-out;
+    transition: margin-top 2s ease-in-out;
+}
+#touxiang {
+    position: relative;
+    width: 10px;
+    height: 180px;
+    cursor: pointer;
+}
+#home_head img {
+    border-radius: 100px;
+    position: absolute;
+    -webkit-transition: box-shadow 2s;
+    transition: box-shadow 2s;
+}
+#home_head img:hover {
+    box-shadow: 0px 0px 10px #FF0000;
+}
+img#tx{
+    opacity: 0;
+    z-index: 90;
+}
+.title{
+    border-top:2px solid red;
+    color:red;
+}
+/*关于我*/
+#aboutMi,#skill_1,#demo_1,#call_1{
+    width:130px;
+    height:130px;
+    margin:0 auto;
+}
+#aboutMi1{
+    height:230px;
+    background:#fff;
+    border-radius:4px;
+    padding-left:40px;
+    margin-top:50px;
+    box-shadow:3px 3px 6px rgba(20%,20%,40%,0.3);
+}
+#aboutMi1 div{
+    float:left;
+    width:90px;
+    height:90px;
+    border:6px solid #c3c3c3;
+    border-radius:60px;
+    margin-left:80px;
+    margin-top:40px;
+    cursor: pointer;
+    background:#ddd;
+}
+#aboutMi1 div:hover{
+    background:#ffce83;
+    border-color:#ffce83;
+    box-shadow:0 0 0 8px rgba(255,206,131,0.5);
+}
+#aboutMi1 img{
+    padding-top:17px;
+}
+#aboutMi1 p{
+    padding-top:15px;
+    font-size:20px;
+    color:#c3c3c3;
+}
+#pingjia{
+    overflow: hidden;
+    padding-top:60px;
+}
+/*专业技能*/
+#jineng{
+    height:800px;
+}
+#skill>div{
+    float: left;
+    margin-left:20px;
+}
+.skill_icon{
+    cursor:pointer;
+    width:90px;
+    height:100px;
+    margin:30px auto;
+    webkit-transform:scale(1.0);
+    transform:scale(1.0);
+    transition:transform .25s;
+}
+.skill_icon:hover{
+    webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    transition:transform .25s;
+}
+.skill_2{
+    position:relative;
+    width:200px;
+    height:500px;
+}
+.skill_int{
+    font-size:10px;
+    width:198px;
+    border:2px solid #ccc;
+    border-radius:10px;
+    position:absolute;
+    top: 250px;
+    line-height:25px;
+    background: #8d6393;
+    color:#ececec;
+    display: none;
+}
+.skill_ph{
+    margin:0 auto;
+    width:24px;
+    height:20px;
+    transition-duration: 1s;
+}
+/*我的作品*/
+
+#demo_2{
+    width:900px;
+    margin-top:60px;
+}
+#feiji{
+    position:relative;
+    cursor: pointer;
+}
+.feiji_mov{
+    position:absolute;
+    width:318px;
+    height:198px;
+    top:2px;
+    left:290px;
+    z-index:2;
+    background:#9de4e5;
+    opacity:0.8;
+    display:none;
+}
+/*联系我*/
